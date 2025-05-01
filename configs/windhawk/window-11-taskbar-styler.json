@@ -1,0 +1,13 @@
+{
+    "theme": "",
+    "resourceVariables[0].variableKey": "",
+    "resourceVariables[0].value": "",
+    "controlStyles[0].target": "SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid > Grid > SystemTray.TextIconContent",
+    "controlStyles[0].styles[0]": "Visibility=Collapsed",
+    "controlStyles[1].target": "SystemTray.Stack#ShowDesktopStack",
+    "controlStyles[1].styles[0]": "Visibility=Collapsed",
+    "controlStyles[2].target": "Taskbar.TaskbarFrame > Grid#RootGrid > Taskbar.TaskbarBackground > Grid > Rectangle#BackgroundFill",
+    "controlStyles[2].styles[0]": "Fill=Transparent",
+    "controlStyles[3].target": "Rectangle#BackgroundStroke",
+    "controlStyles[3].styles[0]": "Fill=Transparent"
+}
