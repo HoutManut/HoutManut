@@ -68,7 +68,7 @@ window_effects:
       opacity: '90%'
 
 window_behavior:
-  initial_state: 'tiling'
+  initial_state: 'floating'
 
   state_defaults:
     floating:
