@@ -64,8 +64,8 @@ window_effects:
       enabled: false
       style: 'square'
     transparency:
-      enabled: true
-      opacity: '90%'
+      enabled: false
+      opacity: '96%'
 
 window_behavior:
   initial_state: 'floating'
@@ -102,7 +102,6 @@ window_rules:
         window_title: { regex: '.*? - Peek' }
       - window_process: { equals: 'Lively' }
         window_class: { regex: 'HwndWrapper' }
-      - window_title: { regex: 'Android Emulator' }
 
 keybindings:
   # Shift focus in a given direction.

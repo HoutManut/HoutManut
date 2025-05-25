@@ -1,0 +1,305 @@
+.mtk6 {
+    color: #ff6d7e;
+    background-image: linear-gradient(45deg, #ff275d, #fe5f8a, #ff275d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    background-size: 200%, auto;
+    animation: breathe 8s linear infinite;
+}
+.mtk11 {
+    color: #a2e57b;
+    background-image: linear-gradient(45deg, #42f062, #41ffd6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+}
+.mtk8 {
+    color: #ffb270;
+    background-image: linear-gradient(45deg, #ff8d01, #ffae00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 500;
+}
+.mtk9 {
+    position: relative;
+    color: #977bfc;
+    background-image: linear-gradient(45deg, #cfc2ff, #a58cff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+}
+/* .mtk9::before {
+    content: '';
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    left: 0;
+    border-radius: 0.25em;
+    top: 0;
+    transform: translateY(15%);
+    transform: translateX(-4px);
+    background-image: linear-gradient(
+        45deg,
+        #a58cff00,
+        #cfc2ff29,
+        #a58cff00,
+        #a58cff00,
+        #a58cff00,
+        #a58cff00,
+    );
+    background-image: linear-gradient(
+        45deg,
+        #8d6dff,
+        #cfc2ff,
+        #8d6dff,
+    );
+    filter: blur(3px);
+    pointer-events: none;
+} */
+.mtk7 {
+    position: relative;
+    color: #7cd5f1;
+    background-image: linear-gradient(
+        45deg,
+        #3fccff,
+        #a9fcfc,
+        #3fccff,
+        #3fccff
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    background-size: 200%, auto;
+    animation: breathe 8s linear infinite reverse;
+}
+.mtk7::before {
+    content: attr(data-text) / '';
+    position: absolute;
+    color: #7cd5f1;
+    background-image: linear-gradient(
+        45deg,
+        #a9fcfc00,
+        #a9fcfcb8,
+        #a9fcfc00,
+        #a9fcfc00
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%, auto;
+    animation: breathe 8s linear infinite reverse;
+
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+    filter: blur(4px);
+}
+.mtk5 {
+    color: #baa0f8;
+    background-image: linear-gradient(45deg, #fe75fe, #ba56e9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    z-index: 10;
+}
+.mtk10 {
+    color: #ffed72;
+    background-image: linear-gradient(45deg, #ffe437, #feea68);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    z-index: 10;
+}
+.monaco-workbench .part.editor > .content .title .tabs-container > .tab a {
+    background-color: rgb(149, 157, 165);
+    background-size: 200%, auto;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    z-index: 10;
+    font-weight: 600;
+}
+
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container.active
+    > .title
+    .tabs-container
+    > .tab.active
+    > .tab-border-bottom-container {
+    color: var(--vscode-tab-activeForeground);
+    left: auto;
+    border-right: 1px solid rgb(39, 49, 54);
+    --tab-border-bottom-color: #0000 !important;
+
+    height: 4px;
+    background-color: var(--tab-border-bottom-color);
+    /* background-image: linear-gradient(to right, #11998f, #d13abd, #efbd8a, #11998f); */
+    background-image: linear-gradient(
+        to right,
+        #d85d7b,
+        #fce879,
+        #52ff74,
+        #a98ce0,
+        #d85d7b
+    );
+    background-size: 200%, auto;
+    animation: breathe 8s linear infinite;
+}
+
+@keyframes breathe {
+    to {
+        background-position: 200%;
+    }
+}
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container.active
+    > .title
+    .tabs-container
+    > .tab.active
+    > .tab-border-top-container {
+    --tab-border-top-color: transparent !important;
+}
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container.active
+    > .title
+    .tabs-container
+    > .tab.active
+    .label-name {
+    background-color: transparent !important;
+    background-size: 200%, auto;
+    background-image: linear-gradient(
+        to right,
+        #d85d7b,
+        #fce879,
+        #52ff74,
+        #a98ce0,
+        #d85d7b
+    );
+
+    animation: breathe 8s linear infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    z-index: 10;
+}
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container.active
+    > .title
+    .tabs-container
+    > .tab.active
+    .label-name::after {
+    content: attr(data-text) / '';
+    background-color: transparent !important;
+    background-size: 200%, auto;
+    background-image: linear-gradient(
+        to right,
+        #d85d7b,
+        #fce879,
+        #52ff74,
+        #a98ce0,
+        #d85d7b
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateX(32px);
+    pointer-events: none;
+
+    animation: breathe 8s linear infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    z-index: 1;
+    filter: blur(4px);
+}
+
+.tabs
+    .monaco-decoration-itemColor--phrepi
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name,
+.tabs
+    .monaco-decoration-itemColor-r3gonq
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name,
+.tabs
+    .monaco-decoration-itemColor--qbi6it
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: var(--vscode-list-warningForeground) !important;
+    background-clip: text;
+}
+
+.tabs
+    .monaco-decoration-itemColor--65c53s
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name,
+.tabs
+    .monaco-decoration-itemColor--1sk8ei
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name,
+.tabs
+    .monaco-decoration-itemColor--or6jzv
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name,
+.tabs
+    .monaco-decoration-itemColor--v8j1qw
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: var(--vscode-list-errorForeground) !important;
+    background-clip: text;
+}
+
+.tabs
+    .monaco-decoration-itemColor-kkyaq5
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: var(
+        --vscode-gitDecoration-modifiedResourceForeground
+    ) !important;
+    background-clip: text;
+}
+.tabs
+    .monaco-decoration-itemColor--ec98p9
+    > .monaco-icon-label-container
+    > .monaco-icon-name-container
+    > a.label-name {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: var(
+        --vscode-gitDecoration-untrackedResourceForeground
+    ) !important;
+    background-clip: text;
+}
