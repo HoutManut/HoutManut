@@ -1,0 +1,61 @@
+:root {
+    --color-bg: transparent !important;
+}
+
+@layer css-modules {
+    :root {
+        --color-bg: transparent !important;
+    }
+
+    [data-fpl-version='ui3'] .object_row--expandCaret--f1MjE,
+    :where([data-fpl-ui3-override]) .object_row--expandCaret--f1MjE {
+        --color-icon-tertiary: black !important;
+    }
+
+    .quick_actions--qaV2WindowInner--cmsFB,
+    .toolbelt--root--jwHGa {
+        --color-bg: rgba(255, 255, 255, 0.3) !important;
+        backdrop-filter: blur(24px);
+    }
+
+    .slides_text_style_dropdown_contents--dropdownContainer--pwY1T {
+        background-color: white !important;
+    }
+}
+
+[data-preferred-theme='light'],
+[data-preferred-theme='light'][data-editor-theme='design'],
+:where([data-preferred-theme='light'] [data-editor-theme='design']) {
+    --color-bg: transparent !important;
+    --color-bg-secondary: #f5f5f570 !important;
+    --color-bg-pressed: #f5f5f570 !important;
+    --color-border: #e6e6e680 !important;
+    --color-bg-selected: #e5f4ff70 !important;
+    --color-bg-hover: #f5f5f535 !important;
+    --color-bg-selected-secondary: #e5f4ff40 !important;
+    --color-icon-tertiary: black !important;
+    --color-icon-component-tertiary: black !important;
+}
+
+.view.container-view {
+    border-radius: 4px;
+    --color-bg: #ffffffff !important;
+}
+
+.window-outlet__windowOutlet__S7mWP {
+    --color-bg: #ffffffff !important;
+}
+
+.object_row--indents--Ygab2 svg {
+    color: black !important;
+}
+
+button-reset__buttonReset__zO1D7 {
+    background-color: white !important;
+}
+
+.draggable_modal--positionedContainer--HdvZU {
+    background: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(24px);
+    border-radius: 12px;
+}
