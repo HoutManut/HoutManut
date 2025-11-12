@@ -1,0 +1,11 @@
+body, header.row {
+  background: none !important;
+  transition: background-color 0.3s linear;
+}
+
+.logo {
+  width: 144px;
+  background: white;
+  padding: 6px;
+  border-radius: 6px;
+}
