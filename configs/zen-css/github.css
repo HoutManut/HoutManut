@@ -2,6 +2,10 @@
   box-shadow: none !important;
 }
 
+.OverviewRepoFiles-module__Box_3--Bi2jM {
+  background-color: light-dark(#fff8, #0005) !important;
+}
+
 .js-snippet-clipboard-copy-unpositioned .markdown-body .highlight {
   background-color: light-dark(#fff8, #0005) !important;
   border-radius: 0.5em !important;
