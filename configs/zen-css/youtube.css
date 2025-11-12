@@ -1,35 +1,31 @@
-body,
-html,
-ytd-app,
-ytd-page-manager,
-#content,
-#page-manager,
-ytd-playlist-panel-renderer,
-.ytd-playlist-panel-renderer {
-    background: none !important;
-    background-color: transparent !important;
+body, html, ytd-app, ytd-page-manager, #content, #page-manager, ytd-playlist-panel-renderer, .ytd-playlist-panel-renderer {
+  background: none !important;
+  background-color: transparent !important;
 }
 
-#background,
-#contentContainer,
-.ytd-tabbed-page-header,
-.ytd-feed-filter-chip-bar-renderer,
-.ytd-backstage-post-renderer,
-.ytp-player-content {
-    background: none !important;
-    background-color: transparent !important;
+#background, #contentContainer, .ytd-tabbed-page-header, .ytd-feed-filter-chip-bar-renderer, .ytd-backstage-post-renderer, .ytp-player-content {
+  background: none !important;
+  background-color: transparent !important;
 }
 
 #masthead-container,
 #masthead,
 .ytd-app,
 .ytd-masthead {
-    background: none !important;
-    background-color: transparent !important;
-    box-shadow: 0 0 white !important;
-    border-bottom: none !important;
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 white !important;
+  border-bottom: none !important;
 }
 
 .ytChipShapeInactive {
-    background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255,255,255,0.25);
+}
+
+#contents {
+  padding-left: 0 !important;
+}
+
+iron-selector.yt-chip-cloud-renderer {
+  margin: 0 !important;
 }
