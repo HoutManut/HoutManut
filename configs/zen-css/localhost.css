@@ -1,0 +1,32 @@
+/* Swagger UI */
+body, header {
+  background: none !important;
+}
+
+.nav-tabs > a.active {
+  background-color: #ffffff80 !important;
+  border-radius: 6px 6px 0px 0px;
+  border: none;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.flow-table tr:nth-child(2n) {
+  background-color: #ffffff70 !important;
+}
+
+.flow-table tr, .json-schema-2020-12-accordion {
+  background-color: transparent !important;
+}
+
+
+.opblock-section-header {
+  background-color: #ffffff70 !important;
+}
+
+.json-schema-2020-12-expand-deep-button {
+  color: #fffa !important;
+  background-color: transparent !important;
+}
