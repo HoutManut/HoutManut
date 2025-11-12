@@ -1,0 +1,61 @@
+.prc-Button-ButtonBase-c50BI, .MergeabilityIcon-module__mergeabilityIcon--GOu7M, .range-editor, .TableHead.prc-DataTable-TableHead-eOrJU, .Table.prc-DataTable-Table-qYfrL, .tabnav-tab.selected, .TabNav__TabNavLink-sc-pwdi4r-3.selected, .timeline-comment-header, .Metadata-module__container--tL6Q3, .CodeBlock-module__header--RMUQr, .CodeBlock-module__codeContainer--dAEis, .ChatMessage-module__actions--Jllb6, .ContentPreviewTab-module__tabContent--zNIXv:hover, .cm-gutters, .cm-editor.ͼ1.ͼ2.ͼ5nc.ͼ5fa.hide-help.js-codemirror-editor, .FilePreview-module__toolbar--toYCM, .cm-content, .FileBlock-module__container--zWu5c, .ChatMessage-module__content--MYneF, .Layout-module__previewPane--vF1ZO.Layout-module__active--nDCtU, .ChatInput-module__container--NFzCy, #settings-frame .Box, .form-select, .edit_user button, .Box-sc-g0xbh4-0 .gxwXUv, .Box-sc-g0xbh4-0.fXxPgR, #file-tree-filter-field, .highlight pre, .ListItem-module__listItem--kHali:hover, .Box-sc-g0xbh4-0 .gpHFJV, .Box-row.Box-row--focus-gray.p-0.mt-0.js-navigation-item.js-issue-row.navigation-focus, .d-flex.flex-column.border.rounded-2.mb-3.pl-1, .form-group .form-control, .Box-sc-g0xbh4-0 .erfCwp, .Box-sc-g0xbh4-0 .eHDvEW, .Box-sc-g0xbh4-0 .ldkMIO, .Box-sc-g0xbh4-0 .eWEbRA:hover, .react-directory-row:hover, .tabnav-tab[aria-selected="true"], .snippet-clipboard-content.notranslate.position-relative.overflow-auto, .Shared-module__CommentBox--x3rre, .Box-sc-g0xbh4-0 .crArEc, .copilotPreview, .MarkdownEditor-module__inputWrapper--MtV0d, .TextInput-wrapper, .AppHeader-search-whenRegular, turbo-frame > article > div.feed-item-content, #feed-filter-menu summary, .pagehead-actions button, .pagehead-actions details summary, .tabnav-tab:hover, #fork-button, .BtnGroup button, .BtnGroup details summary, input[value="Follow"], .Button--secondary, #dashboard-repos-filter-left, .react-directory-remove-file-icon button, #branch-picker-repos-header-ref-selector, .FilterInputWrapper-module__Box_1--vewob, .FilterInputWrapper-module__Box_1--vewob button, .SearchBarActions-module__buttons--N7M2V a, #\:rbo\:-list-view-container, table[aria-labelledby="folders-and-files"], #\:r1a\:-list-view-container, [aria-label="Issues"][data-issue-and-pr-hovercards-enabled], #js-issues-search, .QueryBuilder [data-target="query-builder.styledInput"], .Box-body, a[aria-label="Add file"], button[aria-label="Search this repository"], [data-testid="issue-body"], #\:rc\:-list-view-container, .container:has(#repos-sticky-header), .UnderlineNav-item:hover, .TabNav__TabNavLink-sc-pwdi4r-3:hover, .notifications-list, .notifications-list-item.notification-unread, .Box-header, .Box-sc-g0xbh4-0.iwUbcA, #type-options summary, #language-options summary, #sort-options summary, .Box-sc-g0xbh4-0.NWhVB, [data-selector="repos-split-pane-content"] .Box-sc-g0xbh4-0.NWhVB, .react-issue-comment, .MergeBox-module__mergePartialContainer--N4i3Z, .MarkdownEditor-module__previewWrapper--UHhTL, .FormControl-input, .btn.btn-block.js-profile-editable-edit-button, .btn.js-quick-submit-alternative, #your-repos-filter {
+  box-shadow: none !important;
+}
+
+.js-snippet-clipboard-copy-unpositioned .markdown-body .highlight {
+  background-color: light-dark(#fff8, #0005) !important;
+  border-radius: 0.5em !important;
+}
+
+.highlight>pre {
+  background: none !important;
+}
+
+table {
+  background: light-dark(#fff8, #0005) !important;
+  border-radius: 0.5em !important;
+}
+
+.markdown-body table tr {
+  background: none !important;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #fff8 !important;
+}
+
+@keyframes breathe {
+    to {
+        background-position: 200%;
+    }
+}
+
+@layer primer-react {
+  .prc-Button-ButtonBase-c50BI:where([data-variant="primary"]) .prc-Button-Visual-2epfX,
+  .prc-Button-ButtonBase-c50BI:where([data-variant="primary"]),
+  .prc-Button-ButtonBase-c50BI:where([data-variant="primary"]) .prc-Button-Visual-2epfX {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(
+        to right,
+        #d85d7b,
+        #fce879,
+        #52ff74,
+        #a98ce0,
+        #d85d7b
+    );
+    background-size: 200%, auto;
+    animation: breathe 8s linear infinite;
+  }
+}
+
+
+#logs {
+  background: #fff9 !important;
+  border-radius: 6px !important;
+}
+
+.uxr_CheckRun-header.CheckRun-header {
+  background: none !important;
+}
