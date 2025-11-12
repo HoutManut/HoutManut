@@ -1,0 +1,3 @@
+article shreddit-post, shreddit-post, [source="comment_composer"] button, shreddit-comment[depth="0"] {
+  box-shadow: none !important;
+}
