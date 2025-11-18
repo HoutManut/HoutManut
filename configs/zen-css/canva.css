@@ -13,6 +13,16 @@
   display: none !important;
 }
 
-.q4EfqA {
+.P8WPLg, .FW__Bg {
   background: #ffffff80 !important;
+  backdrop-filter: blur(24px);
+}
+
+.q4EfqA {
+  background: #ffffff40 !important;
+  border-radius: 0px 0px 7px 0px;
+}
+
+.w8GPyg {
+  background: black !important;
 }
